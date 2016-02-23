@@ -25,7 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Movement variables
+            <string>//Jalea stuff
+JellyTime = 10; //en segundos
+JellyCurTime = 0;
+
+CanBeHurtByNormalThings = true;
+
+IsJelly = false;
+
+jelly_key=ord('G');
+jelly_button=gp_face4;
+
+
+//Movement variables
 hzpeed=0
 vzpeed=0
 jump_gravity=0.5
@@ -464,6 +476,37 @@ if keyboard_check(vk_down) || gamepad_axis_value(0,gp_axislv)&gt;0.3 &amp;&amp; 
     bla=instance_create(x,y,obj_eating_hitbox)
     bla.image_xscale=facing
 }
+
+//////////////////////////////////////////////////////////////////////////////
+
+// Jellying
+
+if (keyboard_check_pressed(jelly_key) || gamepad_button_check_pressed(0,jelly_button))
+{
+    if(!IsJelly)
+    {
+        JellyCurTime = 0;
+        IsJelly = true;
+        CanBeHurtByNormalThings = false;
+    }
+}
+
+if(IsJelly)
+    {
+        if(JellyCurTime &lt;= JellyTime)
+        {
+            JellyCurTime += global.deltaSeconds;
+            show_debug_message(JellyCurTime);
+        }
+        else
+        {
+            JellyCurTime = 0;
+            IsJelly = false;
+            CanBeHurtByNormalThings = true;
+        }
+    }
+
+
 /////////////////////////CORRECCIÓN DE SPRITES Y ANIMACIONES\\\\\\\\\\\\\\\\\\\\\\\\\\
 image_xscale=facing
 //Movimiento básico

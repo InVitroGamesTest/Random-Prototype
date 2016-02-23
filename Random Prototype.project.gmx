@@ -59,6 +59,9 @@
     <sprite>sprites\spr_lasershot_ring</sprite>
     <sprite>sprites\spr_lasershot_start</sprite>
     <sprite>sprites\spr_lasershot_loop</sprite>
+    <sprite>sprites\spr_jelly_off</sprite>
+    <sprite>sprites\spr_jelly_on</sprite>
+    <sprite>sprites\spr_bars</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -87,6 +90,9 @@
     <object>objects\obj_partitura_nota</object>
     <object>objects\obj_lasershot</object>
     <object>objects\obj_lasershot_ring</object>
+    <object>objects\obj_globalVars</object>
+    <object>objects\obj_jelly_indicator</object>
+    <object>objects\obj_bars</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
