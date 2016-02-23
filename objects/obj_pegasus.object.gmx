@@ -548,31 +548,48 @@ if static=1
 // Brazos de Ancla
 
 if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
-    (gamepad_button_check(0, gp_face3) || (keyboard_check_pressed(ord("Z")))))
+    (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))))
+    
    {
-    if sprite_index = spr_pega_idle || jump = 1
-    {
-       sprite_index = spr_pega_jab
-       image_index = 0;
-       image_speed=0.3*global.time_multiplier;
-    } 
+    
+    sprite_index = spr_pega_brazos
+    
+    if (gamepad_button_check_pressed(0, gp_face3) || keyboard_check_pressed(ord("Z"))) 
+   {
+        if sprite_index = spr_pega_brazos || jump = 1
+        {
+           sprite_index = spr_pega_jab
+           image_index = 0;
+           image_speed=0.3*global.time_multiplier;
+        } 
           
    }
 
-((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
-    (gamepad_button_check(0, gp_face4) || (keyboard_check_pressed(ord("X")))))
+    if (gamepad_button_check_pressed(0, gp_face4) || keyboard_check_pressed(ord("X"))) 
    {
-    if sprite_index = spr_pega_idle || jump = 1
-    {
-       sprite_index = spr_pega_uppercut
-       image_index = 0;
-       image_speed = 0.3*global.time_multiplier;
-    } 
-          
+        if sprite_index = spr_pega_brazos || jump = 1
+        {
+           sprite_index = spr_pega_uppercut
+           image_index = 0;
+           image_speed=0.3*global.time_multiplier;
+        }        
+   }
+             
    }
    
 global.time_multiplier=time_multiplier   
 
+//Telekinesis
+
+if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
+    (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))) &amp;&amp;
+    (gamepad_button_check(0, gp_shoulderr) || (keyboard_check(ord("W")))) &amp;&amp;
+    (gamepad_button_check(0, gp_shoulderl) || (keyboard_check(ord("Q")))))
+   {
+    
+    sprite_index = spr_pega_telekinesis
+
+    }
 // MPS FIN 22/02/2016
 
 
