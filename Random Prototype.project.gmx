@@ -17,6 +17,8 @@
   <sprites name="sprites">
     <sprites name="Pegasus">
       <sprite>sprites\sprite0</sprite>
+      <sprite>sprites\spr_pega_jab</sprite>
+      <sprite>sprites\spr_pega_uppercut</sprite>
       <sprite>sprites\spr_pega_dash</sprite>
       <sprite>sprites\pega_dash2</sprite>
       <sprite>sprites\spr_pega_idle</sprite>

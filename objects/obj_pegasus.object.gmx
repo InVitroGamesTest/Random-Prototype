@@ -540,7 +540,42 @@ if static=1
     if sprite_index=spr_pega_down_eat{image_speed=0.2*time_multiplier;crouch=1}
     if sprite_index!=spr_pega_down_eat{static=0}
 }
-global.time_multiplier=time_multiplier
+
+// MPS INI 22/02/2016
+
+//global.time_multiplier=time_multiplier
+
+// Brazos de Ancla
+
+if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
+    (gamepad_button_check(0, gp_face3) || (keyboard_check_pressed(ord("Z")))))
+   {
+    if sprite_index = spr_pega_idle || jump = 1
+    {
+       sprite_index = spr_pega_jab
+       image_index = 0;
+       image_speed=0.3*global.time_multiplier;
+    } 
+          
+   }
+
+((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
+    (gamepad_button_check(0, gp_face4) || (keyboard_check_pressed(ord("X")))))
+   {
+    if sprite_index = spr_pega_idle || jump = 1
+    {
+       sprite_index = spr_pega_uppercut
+       image_index = 0;
+       image_speed = 0.3*global.time_multiplier;
+    } 
+          
+   }
+   
+global.time_multiplier=time_multiplier   
+
+// MPS FIN 22/02/2016
+
+
 </string>
           </argument>
         </arguments>
