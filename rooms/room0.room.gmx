@@ -505,6 +505,27 @@
     <instance objName="obj_objeto_rectangulo" x="1664" y="928" name="inst_CB845428" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_objeto_rectangulo" x="2592" y="1376" name="inst_44EE8539" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_objeto_rectangulo" x="2816" y="672" name="inst_7000B308" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="640" y="1184" name="inst_E2BEBB28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="896" y="1248" name="inst_8407EA02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1120" y="1184" name="inst_E5CC45CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="832" y="1024" name="inst_9A3F07BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="192" y="1056" name="inst_3E6D741F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemigo_jefe" x="2176" y="1327" name="inst_FBE0EF64" locked="0" code="" scaleX="0.939999997615814" scaleY="0.9200000166893" colour="4294967295" rotation="0"/>
+    <instance objName="obj_eating_hitbox" x="2304" y="1088" name="inst_4B552355" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2464" y="864" name="inst_10F148D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2720" y="1024" name="inst_9DF8F054" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2272" y="896" name="inst_40581163" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1856" y="768" name="inst_05B80887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1888" y="1024" name="inst_33584B64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1472" y="1024" name="inst_3F52DB9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1184" y="864" name="inst_EEA102D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1248" y="672" name="inst_E9FE0B8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1408" y="832" name="inst_6DE1C555" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1536" y="832" name="inst_562D53FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="1632" y="768" name="inst_34A05AED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2656" y="864" name="inst_C36F76DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2656" y="736" name="inst_548590EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_objeto_clickfireball" x="2784" y="832" name="inst_464BA41A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

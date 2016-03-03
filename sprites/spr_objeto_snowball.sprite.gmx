@@ -20,6 +20,6 @@
   <width>65</width>
   <height>71</height>
   <frames>
-    <frame index="0">images\spr_objeto_rectangulo_0.png</frame>
+    <frame index="0">images\spr_objeto_snowball_0.png</frame>
   </frames>
 </sprite>

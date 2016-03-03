@@ -547,8 +547,7 @@ if static=1
 
 // Brazos de Ancla
 
-if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
-    (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))))
+if (gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift)))
     
    {
     
@@ -582,9 +581,7 @@ global.time_multiplier=time_multiplier
 //Telekinesis
 
 if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
-    (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))) &amp;&amp;
-    (gamepad_button_check(0, gp_shoulderr) || (keyboard_check(ord("W")))) &amp;&amp;
-    (gamepad_button_check(0, gp_shoulderl) || (keyboard_check(ord("Q")))))
+    (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))))
    {
     
     sprite_index = spr_pega_telekinesis

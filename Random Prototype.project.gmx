@@ -24,6 +24,7 @@
       <sprite>sprites\spr_pega_dash</sprite>
       <sprite>sprites\pega_dash2</sprite>
       <sprite>sprites\spr_pega_idle</sprite>
+      <sprite>sprites\spr_pega_death</sprite>
       <sprite>sprites\spr_pega_idle_down</sprite>
       <sprite>sprites\spr_pega_down_eat</sprite>
       <sprite>sprites\spr_pega_down_eat_hitbox</sprite>
@@ -46,6 +47,11 @@
       <sprite>sprites\spr_platform_slopeR</sprite>
       <sprite>sprites\spr_platform_slopeR2</sprite>
     </sprites>
+    <sprite>sprites\spr_enemigo_jefe</sprite>
+    <sprite>sprites\spri_objeto_fireball</sprite>
+    <sprite>sprites\spr_explosion_enemigo</sprite>
+    <sprite>sprites\spr_explosion_fuego</sprite>
+    <sprite>sprites\spr_objeto_snowball</sprite>
     <sprite>sprites\spr_objeto_rectangulo</sprite>
     <sprite>sprites\spr_pasto</sprite>
     <sprite>sprites\spr_pasto_destroy</sprite>
@@ -98,6 +104,12 @@
     <object>objects\obj_globalVars</object>
     <object>objects\obj_jelly_indicator</object>
     <object>objects\obj_bars</object>
+    <object>objects\obj_pegassus_death</object>
+    <object>objects\obj_enemigo_jefe</object>
+    <object>objects\obj_objeto_explosionenemigo</object>
+    <object>objects\obj_objeto_fireball</object>
+    <object>objects\obj_explosion_fuego</object>
+    <object>objects\obj_objeto_clickfireball</object>
     <object>objects\obj_objeto_rectangulo</object>
   </objects>
   <rooms name="rooms">
