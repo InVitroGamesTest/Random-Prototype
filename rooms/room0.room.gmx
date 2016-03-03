@@ -494,7 +494,6 @@
     <instance objName="obj_pasto" x="1760" y="1440" name="inst_9D98C7C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pasto" x="1824" y="1440" name="inst_3738648C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_globalVars" x="1600" y="224" name="inst_873253D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_jelly_indicator" x="256" y="928" name="inst_14A19CA4" locked="0" code="" scaleX="4.5" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_bars" x="448" y="1152" name="inst_38BD0CDE" locked="0" code="" scaleX="2" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_objeto_rectangulo" x="1152" y="1056" name="inst_9102B3C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_objeto_rectangulo" x="704" y="1312" name="inst_EBD95046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
