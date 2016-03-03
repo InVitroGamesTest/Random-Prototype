@@ -28,8 +28,40 @@
             <string>if ((gamepad_button_check(0, gp_shoulderrb) || (keyboard_check(vk_lshift))) &amp;&amp; 
     (gamepad_button_check(0, gp_shoulderlb) || (keyboard_check(vk_lalt))))
 {
-move_towards_point( mouse_x, mouse_y, 50 );
+
+spd = distance_to_point(mouse_x, mouse_y);
+
+if(distance_to_point(mouse_x, mouse_y)&lt; 5){
+    move_towards_point( mouse_x, mouse_y, spd );
 }
+else{
+  move_towards_point( mouse_x, mouse_y, 9.666 );
+}
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_objeto_rectangulo">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>   instance_create(x,y,obj_explosion_fuego);
+   instance_destroy(); 
 </string>
           </argument>
         </arguments>
@@ -55,30 +87,6 @@ move_towards_point( mouse_x, mouse_y, 50 );
             <string>   instance_create(x,y,obj_explosion_fuego);
    instance_destroy(); 
    global.vidaenemigo = global.vidaenemigo -1 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_objeto_rectangulo">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>   instance_create(x,y,obj_explosion_fuego);
-   instance_destroy(); 
 </string>
           </argument>
         </arguments>
